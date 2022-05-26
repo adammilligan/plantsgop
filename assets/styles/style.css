@@ -6,10 +6,12 @@ body{
 }
 .header_wrapper{
     position: relative;
+    background-color: #F6F6F6;
 }
 .header{
-    background-color: #F6F6F6;
     display: flex;
+    position: relative;
+    z-index: 1;
 }
 .header_menu-logo{
     width: 15%;
@@ -79,8 +81,7 @@ body{
     width: 50%;
 }
 .main_banner{
-    background-color: #F6F6F6;
-    padding-bottom: 100px; //TODO
+    padding-bottom: 100px;
 }
 .main_button{
     margin-top: 50px;
